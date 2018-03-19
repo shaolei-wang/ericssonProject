@@ -1,3 +1,5 @@
+The lua script is contained in the child script of turtlebot2i and referenced in External controller tutorial of Vrep.
+
 Open roscore and vrep, then input following command in a new terminal:
 
 $ rostopic list
@@ -19,8 +21,10 @@ publishing and latching message. Press ctrl-C to terminate
 Then check in the command line in Vrep:
 > sim.getObjectHandle('redCycle')
 105
+
 > sim.getObjectSizeValues(105)
 {10, 10, 0}
+
 > sim.getObjectSizeValues(105)
 {100, 100, 0}
 
