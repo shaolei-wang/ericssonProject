@@ -1,7 +1,7 @@
 The lua script is contained in the child script of turtlebot2i and referenced in External controller tutorial of Vrep.
 
 Open roscore and vrep, then input following command in a new terminal:
-
+```
 $ rostopic list
 /greenCycle12766
 /leftMotorSpeed12766
@@ -14,11 +14,12 @@ $ rostopic list
 /simTime12766
 /tf
 /yellowCycle12766
-
+```
 $ rostopic pub /redCycle12766 std_msgs/Float32 "data: 100.0" 
 publishing and latching message. Press ctrl-C to terminate
 
 Then check in the command line in Vrep:
+```
 > sim.getObjectHandle('redCycle')
 105
 
@@ -27,7 +28,7 @@ Then check in the command line in Vrep:
 
 > sim.getObjectSizeValues(105)
 {100, 100, 0}
-
+```
 But nothing changed in the view of the scene graph.
 
 Plus, the robot should move when starting simulation and from the script we can change the speed of left and right wheel. But it seems this function doesnot work.
