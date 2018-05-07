@@ -12,7 +12,7 @@ The file `SceneObjectExtractor.py` and `simple_object_extractor.py` is the origi
 ## Working files
 The file `simple_object_extractor1.py` can run and the result is a really complex picture (svg). **All the nodes** are connected with each other.
 
-The file `simple_object_extractor2.py` add the algorithm 1 from paper On Support Relations and Semantic Scene Graphs. But it isn't finished and there are some bugs need to be fixed.
+The file `simple_object_extractor2.py` add the algorithm 1 from paper `On Support Relations and Semantic Scene Graphs`. But it isn't finished and there are some bugs need to be fixed.
 
 Both the files above two with modified import the python class from `SceneObjectExtractor`**1**`.py`, not `SceneObjectExtractor.py`.
                    
