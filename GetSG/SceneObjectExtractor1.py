@@ -117,7 +117,7 @@ class SceneObjectExtractor:
     def close_connection(self):
         #clientID = vrep.simxStart(ip, port, True, True, 5000, 5)
         vrep.simxFinish(self.clientID)
-        return 0
+        #return 0
     
 
     # Get information of all objects
