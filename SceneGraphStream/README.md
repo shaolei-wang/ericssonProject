@@ -1,7 +1,7 @@
 ## usage
 Newest scripts from vrep remote API. The performance improved and the speed is much faster than old one.
 
-Change the objects lists in the head of file `RobotSG*.py`
+Change the objects lists in the head of file `robotSG*.py`
 
 ## Bugs
 - when you set the while loop only one, error happens:
@@ -13,5 +13,5 @@ Traceback (most recent call last):
 NameError: name 'clientID' is not defined
 ```
 
-I will fixed it tomorrow.
+Fixed. See in V51 version
  
